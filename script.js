@@ -1,4 +1,4 @@
-document.getElementeByld('formulario').addEventListener('submit', function(event){
+document.getElementById('formulario').addEventListener('submit', function(event){
 event.preventDefault();
 //obter as notas inseridas pelo usuário
 let nota1=parseFloat(document.getElementeByld ('nota1').value);
