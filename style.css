@@ -6,7 +6,7 @@
 
 body{
     font-family: arial, sans-serif;
-    background-color: #dfc5b7;
+    background-color: #d8c3b8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body{
     background-color: #b5e0ad;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(73, 21, 21, 0.1);
     width: 300px;
 }
 
