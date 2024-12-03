@@ -11,7 +11,9 @@ let media=(nota1+nota2+nota3)/3;
 //exibir a mesagem de resultado
 let resultadoDiv=document.getElementeByld ('resultado')
 if(media>=6.0){
-    resultadoDiv.innerHTML =  `<p class="aprovdo">Aprovado! Sua média foi: ${media.toFixed(2)}</p>`
+    resultadoDiv.innerHTML =  `<p class="aprovdo">Aprovado! Sua média foi: ${media.toFixed(2)}</p>`;
+} else{
+    resultadoDiv.innerHTML = `<p class="recuperacao">Recuperação. Sua média foi: ${media.toFixed(2)}</p>`;
 }
 
-}
+});
